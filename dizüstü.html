@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <title>Segmentify</title>
+    <link rel="icon" href="image/logo.png">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+     <h3 style="text-align: center" class="titlee">Sizin için seçtiklerimiz</h3>
+    <div class="scrollmenu">
+      <a href="index.html">Size Özel</a>
+      <a href="tamir.html">Tamir, Tadilat Gereçleri</a>
+      <a href="mobilya.html">Mobilya</a>
+      <a href="sağlık.html">Sağlık, Medikal</a>
+      <a href="dizüstü.html" style="color:#007BA7">Dizüstü Bilgisayar</a>
+      <a href="ısıtma.html">Isıtma, Soğutma Sistemi</a>
+    </div>
+    <div class="wui-side-menu open pinned" data-wui-theme="dark">
+      <h2 style="color: black; margin-left: 10px; margin-top: 40px">
+        Sizin İçin Seçtiklerimiz
+      </h2>
+      <ul class="wui-side-menu-items">
+        <li>
+          <a href="index.html" class="wui-side-menu-item">
+            <i class="far fa-star"></i>
+            <span class="box-title">Size Özel</span>
+          </a>
+        </li>
+        <li>
+          <a href="tamir.html" class="wui-side-menu-item">
+            <i class="fas fa-tools"></i>
+            <span class="box-title">Tamir, Tadilat Gereçleri</span>
+          </a>
+        </li>
+        <li>
+          <a href="mobilya.html" class="wui-side-menu-item">
+            <i class="fas fa-couch"></i>
+            <span class="box-title">Mobilya</span>
+          </a>
+        </li>
+        <li>
+          <a href="sağlık.html" class="wui-side-menu-item">
+            <i class="fas fa-medkit"></i>
+            <span class="box-title">Sağlık, Medikal</span>
+          </a>
+        </li>
+        <li>
+          <a href="dizüstü.html" class="wui-side-menu-item active">
+            <i class="fas fa-laptop"></i>
+            <span class="box-title">Dizüstü Bilgisayar</span>
+          </a>
+        </li>
+        <li>
+          <a href="ısıtma.html" class="wui-side-menu-item">
+            <i class="fas fa-fan"></i>
+            <span class="box-title">Isıtma, Soğutma Sistemi</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="wui-content" style="margin-top: 40px">
+      <div class="wui-content-header">
+        <div id="productSlider">
+         
+          <div
+            class="MS-content"
+            id="productSliderContent"
+            style="height: 500px"
+          ></div>
+          <div class="MS-controls">
+            <button class="MS-left">
+              <i
+                class="fa fa-chevron-left"
+                id="arrow-icon"
+                aria-hidden="true"
+              ></i>
+            </button>
+            <button class="MS-right">
+              <i
+                class="fa fa-chevron-right"
+                id="arrow-icon"
+                aria-hidden="true"
+              ></i>
+            </button>
+          </div>
+        </div>
+        <div id="alert">
+          <span><i class="fas fa-check-circle" id="check-icon"></i></span>
+          <h1>Ürün Sepete Eklendi</h1>
+          <a class="closes" onclick="pop()">x</a>
+          <a
+            href="#"
+            class="order-go"
+            style="color: #2ecc71; line-height: 10px"
+          >
+            Sepete git <i class="fas fa-shopping-cart" style="color: green"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+	<script src="multislider.min.js"></script>
+	<script src="js/dizüstü.js"></script>
+	<script src="js/alert.js"></script>
+	<script src="js/convert-price.js"></script>
+  </body>
+</html>
